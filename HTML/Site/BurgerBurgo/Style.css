@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(94, 94, 94);
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    color: rgb(214, 201, 201);
+    background: rgb(231,233,187);
+    background: radial-gradient(circle, rgba(231,233,187,1) 0%, rgba(64,59,74,1) 100%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1:hover{
+    color: #403B4A;  /* fallback for old browsers */
+    transition: 3s;
+}
+
+header form{
+    text-align: left;
+}
+
+article{
+    color: aliceblue;
+    float: left;
+}
+
+
+aside{
+    margin-left: 2rem;
+    float: right;
+}
+
+figure img{
+    width: 20rem;
+    float: right;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+footer{
+    flex-direction: column;
+    color: whitesmoke;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}

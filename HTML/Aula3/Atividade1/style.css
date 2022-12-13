@@ -1,0 +1,16 @@
+header{
+    width: 100%;
+    background-color: aqua;
+}
+
+article{
+    background-color: blue;
+}
+
+aside{
+    background-color: purple;
+}
+
+footer{
+    background-color: aquamarine;
+}

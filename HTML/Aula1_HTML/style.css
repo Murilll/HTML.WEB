@@ -1,0 +1,9 @@
+li{
+    list-style: none;
+}
+.titulo-musica{
+    background-color: black;
+}
+.titulo-musica h1{
+    color: aliceblue;
+}

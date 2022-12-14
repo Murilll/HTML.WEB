@@ -1,0 +1,16 @@
+section h1{
+    text-align: center;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-2.text-dark{
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+}

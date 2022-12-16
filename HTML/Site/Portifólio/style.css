@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    overflow: hidden;
+}
+
 nav a{
     color: #fff;
     text-decoration: none;
@@ -29,8 +33,8 @@ nav{
     transition: 2s;
 }
 
-main{
-    background: url("Gackgroud/marek-piwnicki-zLWkIBPmrYE-unsplash.jpg") no-repeat center center;
+.primeira{
+    background: url("") no-repeat center center;
     background-size: cover;
     height: 92vh;
 }
@@ -45,11 +49,161 @@ main{
     margin-left: 32px;
 }
 
-main h1{
+.primeira{
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     color: #fff;
+    
 }
 
-section{
-    height: 100vh;
+.segunda{
+    background-color: #393941;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.escrita h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: justify;
+    line-height: 60px;
+}
+
+.escrita h5{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+/*Mudar a barra de rolagem*/
+
+::-webkit-scrollbar{
+    width: 6px;
+    background: #393941;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(206, 30, 112);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(23, 22, 24);
+}
+
+.terceira{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.quarta{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+.quinto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+
+.escolaridade{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.experiencia{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.curso{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.terceira h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 50;
+}
+
+.quarta h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 50;
+}
+
+.quinto h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 50;
+}
+
+.escolaridade h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+
+.experiencia h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+
+.curso h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+
+.escolaridade h3{
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+.experiencia h3{
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+.curso h3{
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+hr{
+    width: 100vh;
+    text-align: center;
+}
+
+

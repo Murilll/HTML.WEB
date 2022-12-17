@@ -28,13 +28,14 @@ nav{
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background-color: #23232e;
+    background-color: rgb(8, 8, 8);
+    /*background-color: #23232e;*/
     height: 100vh;
     transition: 2s;
 }
 
 .primeira{
-    background: url("") no-repeat center center;
+    background: url("Gackgroud/cat-han-W_5Eakb1598-unsplash.jpg") no-repeat center center;
     background-size: cover;
     height: 92vh;
 }
@@ -51,7 +52,7 @@ nav{
 
 .primeira{
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    color: #fff;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -206,4 +207,15 @@ hr{
     text-align: center;
 }
 
+.Aventura{
+    background: url("Gackgroud/3693187.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
 

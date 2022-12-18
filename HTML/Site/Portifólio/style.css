@@ -241,7 +241,7 @@ nav{
     justify-content: center;
     width: 100%;
     height: 70vh;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 

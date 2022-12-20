@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background-color: rgb(8, 8, 8);
+    /*background-color: #23232e;*/
+    height: 8vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.backgroud{
+    background: url("img/lontrinha.png") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+#video{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card img{
+    width: 15cm;
+    height: 15cm;
+}
+
+.ultimaimg{
+    display: flex;
+    justify-content: center;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    background: #393941;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(82, 12, 45);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(23, 22, 24);
+}
+

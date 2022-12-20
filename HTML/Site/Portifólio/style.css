@@ -69,6 +69,24 @@ nav{
     align-items: center;
 }
 
+#imagemRedonda img{
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+
+.Aventura img{
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+
+.escrita{
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 20px;
+}
+
 .escrita h1{
     font-size: 20px;
     text-transform: uppercase;
@@ -83,6 +101,10 @@ nav{
     letter-spacing: 3px;
     text-align: justify;
     line-height: 20px;
+}
+
+.final{
+  background-color: rgb(255, 255, 255);
 }
 
 /*Mudar a barra de rolagem*/
@@ -151,27 +173,27 @@ nav{
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 3px;
-    line-height: 50;
+    line-height: 100vh;
     text-decoration: underline;
-    text-decoration-color: aqua;
+    text-decoration-color: rgb(216, 221, 221);
 }
 
 .quarta h1{
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 3px;
-    line-height: 50;
+    line-height: 100vh;
     text-decoration: underline;
-    text-decoration-color: aqua;
+    text-decoration-color: rgb(216, 221, 221);
 }
 
 .quinto h1{
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 3px;
-    line-height: 50;
+    line-height: 100vh;
     text-decoration: underline;
-    text-decoration-color: aqua;
+    text-decoration-color: rgb(216, 221, 221);
 }
 
 .escolaridade h2{
@@ -220,7 +242,6 @@ nav{
     border: 0;
 }
 
-
 .Aventura{
     background: url("Gackgroud/3693187.jpg") no-repeat center center;
     background-size: cover;
@@ -261,6 +282,7 @@ nav{
     src: url(https://fonts.gstatic.com/s/cutivemono/v14/m8JWjfRfY7WVjVi2E-K9H6RCTm4.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
+
 
   *, *:before, *:after {
     box-sizing: border-box;
@@ -1203,3 +1225,5 @@ nav{
       text-shadow: 0px 0px 20px rgba(255, 255, 255, 0);
     }
   }
+
+
